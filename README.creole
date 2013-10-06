@@ -1,0 +1,4 @@
+= g-leaflet-draw Add-On project =
+
+Simple Java (GWT) wrapper for Leaflet.Draw plugin. Depends on g-leaflet project.
+

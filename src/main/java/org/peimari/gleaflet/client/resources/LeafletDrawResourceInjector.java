@@ -24,10 +24,6 @@ public class LeafletDrawResourceInjector {
 		injectScript(bundle.drawScript().getText());
 	}
 
-	protected String getDefaultMarkerDirectory() {
-		return GWT.getModuleBaseURL() + "markers/";
-	}
-
 	private static native void injectScript(String script)
 	/*-{
 	    $wnd.eval(script);

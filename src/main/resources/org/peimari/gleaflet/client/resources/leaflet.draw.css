@@ -31,7 +31,7 @@
 @url spritesheet2x spritesheet2x;
 .leaflet-retina .leaflet-draw-toolbar a {
 	background-image: spritesheet2x;
-	background-size: 210px 30px;
+	background-size: 270px 30px;
 }
 
 .leaflet-draw a {
@@ -96,6 +96,7 @@
 
 .leaflet-draw-actions-bottom {
 	margin-top: 0;
+	white-space: nowrap;
 }
 
 .leaflet-draw-actions-top {
@@ -154,6 +155,14 @@
 	background-position: -182px -2px;
 }
 
+.leaflet-draw-toolbar .leaflet-draw-edit-edit.leaflet-disabled {
+	background-position: -212px -2px;
+}
+
+.leaflet-draw-toolbar .leaflet-draw-edit-remove.leaflet-disabled {
+	background-position: -242px -2px;
+}
+
 /* ================================================================== */
 /* Drawing styles
 /* ================================================================== */
@@ -175,6 +184,7 @@
 	margin-top: -21px;
 	padding: 4px 8px;
 	position: absolute;
+	visibility: hidden;
 	white-space: nowrap;
 	z-index: 6;
 }

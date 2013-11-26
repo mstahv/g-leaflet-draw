@@ -2,7 +2,7 @@ package org.peimari.gleaflet.client.draw;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
-abstract class DrawFeature extends JavaScriptObject {
+public abstract class DrawFeature extends JavaScriptObject {
 
 	protected DrawFeature() {
 	}
@@ -32,12 +32,4 @@ abstract class DrawFeature extends JavaScriptObject {
 		return this.enabled();
 	}-*/;
 	
-	public native final  void addLayerCreatedListener(
-			LayerCreatedListener listener) 
-	/*-{
-		this.on("draw:created", function(e) {
-				$entry(listener.@org.peimari.gleaflet.client.draw.LayerCreatedListener::onCreate(Lorg/peimari/gleaflet/client/draw/LayerCreatedEvent;)(e));
-		});
-	}-*/;
-
 }

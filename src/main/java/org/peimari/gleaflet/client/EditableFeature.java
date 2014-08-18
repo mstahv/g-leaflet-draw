@@ -17,9 +17,9 @@ public class EditableFeature extends AbstractPath implements ILayer {
 	
 	public native final void addEditListener(FeatureEditedListener listener) 
 	/*-{
-		this.on("edit", function(e) {
-			$entry(listener.@org.peimari.gleaflet.client.FeatureEditedListener::onEdit()());
-		});
+		this.on("edit", $entry(function(e) {
+			listener.@org.peimari.gleaflet.client.FeatureEditedListener::onEdit()();
+		}));
 	}-*/;
 
 	public final void setEnabled(boolean enabled) {

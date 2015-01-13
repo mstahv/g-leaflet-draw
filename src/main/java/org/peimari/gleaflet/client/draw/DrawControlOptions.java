@@ -14,6 +14,11 @@ public class DrawControlOptions extends JavaScriptObject {
 		return { draw:{}, edit:{}};
 	}-*/;
 
+        public native final void setDraw(DrawControlButtonOptions drawOptions)
+	/*-{
+                this.draw = drawOptions;
+        }-*/;
+
 	public native final void setEditableFeatureGroup(FeatureGroup layerGroup)
 	/*-{
 	 	this.edit.featureGroup = layerGroup;

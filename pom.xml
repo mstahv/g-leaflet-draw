@@ -14,7 +14,7 @@
         <url>git://github.com/mstahv/g-leaflet-draw.git</url>
         <connection>scm:git:git://github.com/mstahv/g-leaflet-draw.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/mstahv/g-leaflet-draw.git</developerConnection>
-    </scm>
+  </scm>
 
     <dependencies>
         <dependency>
@@ -169,6 +169,7 @@
                         <releaseProfiles>release</releaseProfiles>
                         <goals>install assembly:single</goals>
                     </configuration>
+                    <version>2.5.2</version>
                 </plugin>
 
                 <!--This plugin's configuration is used to store Eclipse m2e settings 

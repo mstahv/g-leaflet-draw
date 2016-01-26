@@ -1,6 +1,6 @@
 package org.peimari.gleaflet.client.draw;
 
-import org.peimari.gleaflet.client.ILayer;
+import org.peimari.gleaflet.client.Layer;
 
 public class LayerCreatedEvent extends DrawEvent {
 	
@@ -21,7 +21,7 @@ public class LayerCreatedEvent extends DrawEvent {
 		return null;
 	}
 
-	public native final ILayer getLayer()
+	public native final Layer getLayer()
 	/*-{
 	 	return this.layer;
 	 }-*/;

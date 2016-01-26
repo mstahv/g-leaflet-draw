@@ -1,6 +1,6 @@
 package org.peimari.gleaflet.client;
 
-public class EditableFeature extends AbstractPath implements ILayer {
+public class EditableFeature extends AbstractPath {
 
 	protected EditableFeature() {
 	}

@@ -61,4 +61,9 @@ public class DrawControlButtonOptions extends JavaScriptObject {
         this.simpleshape = simpleshape;
     }-*/;
 
+    public native final void setPolygonHandlerOptions(DrawPolygonHandlerOptions polygonHandlerOptions)
+    /*-{
+        this.polygon = polygonHandlerOptions;
+    }-*/;
+
 }

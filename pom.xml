@@ -14,14 +14,21 @@
         <url>git://github.com/mstahv/g-leaflet-draw.git</url>
         <connection>scm:git:git://github.com/mstahv/g-leaflet-draw.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/mstahv/g-leaflet-draw.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>vaadin-addons</id>
+            <url>http://maven.vaadin.com/vaadin-addons</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
             <groupId>org.peimari</groupId>
             <artifactId>g-leaflet</artifactId>
-            <version>1.0.0-b5-SNAPSHOT</version>
+            <version>1.0.3</version>
         </dependency>
         <dependency>
             <groupId>com.google.gwt</groupId>

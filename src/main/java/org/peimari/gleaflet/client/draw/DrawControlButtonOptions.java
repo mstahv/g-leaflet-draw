@@ -1,6 +1,8 @@
 package org.peimari.gleaflet.client.draw;
 
 import com.google.gwt.core.client.JavaScriptObject;
+import org.peimari.gleaflet.client.FeatureGroup;
+import org.peimari.gleaflet.client.PolylineOptions;
 
 import java.util.Set;
 
@@ -15,7 +17,7 @@ public class DrawControlButtonOptions extends JavaScriptObject {
 
     public static native DrawControlButtonOptions create()
     /*-{
-            return {};
+        return {};
     }-*/;
 
     /**
@@ -60,5 +62,30 @@ public class DrawControlButtonOptions extends JavaScriptObject {
     /*-{
         this.simpleshape = simpleshape;
     }-*/;
+
+    public native final void setPolyline(DrawPolylineOptions polylineOptions)
+    /*-{
+        this.polyline = polylineOptions;
+	}-*/;
+
+    public native final void setPolygon(DrawPolygonOptions polygonOptions)
+    /*-{
+        this.polygon = polygonOptions;
+	}-*/;
+
+    public native final void setRectangle(DrawRectangleOptions rectangleOptions)
+    /*-{
+        this.rectangle = rectangleOptions;
+	}-*/;
+
+    public native final void setCircle(DrawCircleOptions circleOptions)
+    /*-{
+        this.circle = circleOptions;
+	}-*/;
+
+    public native final void setMarker(DrawMarkerOptions markerOptions)
+    /*-{
+        this.marker = markerOptions;
+	}-*/;
 
 }

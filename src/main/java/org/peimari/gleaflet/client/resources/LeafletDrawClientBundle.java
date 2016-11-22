@@ -16,6 +16,10 @@ public interface LeafletDrawClientBundle extends ClientBundle {
     @CssResource.NotStrict
     CssResource drawCss();
 
+    @Source("images/spritesheet.svg")
+    @DoNotEmbed
+    DataResource spritesheetSVG();
+
     @Source("images/spritesheet.png")
     @DoNotEmbed
     DataResource spritesheet();

@@ -28,7 +28,7 @@
     background-image: spritesheet;
     background-image: linear-gradient(transparent, transparent), spritesheetSVG;
     background-repeat: no-repeat;
-    background-size: 270px 30px;
+    background-size: 300px 30px;
     background-clip: padding-box;
 }
 
@@ -51,7 +51,7 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
 }
 
@@ -190,6 +190,14 @@
 
 .leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-marker {
     background-position: -120px -1px;
+}
+
+.leaflet-draw-toolbar .leaflet-draw-draw-circlemarker {
+	background-position: -273px -2px;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-circlemarker {
+	background-position: -271px -1px;
 }
 
 /* ================================================================== */

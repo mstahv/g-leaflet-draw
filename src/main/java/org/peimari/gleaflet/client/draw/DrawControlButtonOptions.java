@@ -43,6 +43,11 @@ public class DrawControlButtonOptions extends JavaScriptObject {
         this.marker = marker;
     }-*/;
 
+    public native final void setCircleMarkerVisibility(boolean circleMarker)
+    /*-{
+        this.circlemarker = circleMarker;
+    }-*/;
+
     public native final void setPolygonVisibility(boolean polygon)
     /*-{
         this.polygon = polygon;
@@ -88,4 +93,8 @@ public class DrawControlButtonOptions extends JavaScriptObject {
         this.marker = markerOptions;
 	}-*/;
 
+    public native final void setCircleMarker(DrawCircleMarkerOptions circleMarkerOptions)
+    /*-{
+        this.circlemarker = circleMarkerOptions;
+	}-*/;
 }

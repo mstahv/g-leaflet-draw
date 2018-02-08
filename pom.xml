@@ -9,7 +9,12 @@
     <artifactId>g-leaflet-draw</artifactId>
     <packaging>jar</packaging>
     <name>g-leaflet-draw</name>
-        
+
+    <organization>
+        <name>Vaadin Community</name>
+        <url>http://vaadin.com/forum/</url>
+    </organization>
+
     <scm>
         <url>git://github.com/mstahv/g-leaflet-draw.git</url>
         <connection>scm:git:git://github.com/mstahv/g-leaflet-draw.git</connection>

@@ -22,4 +22,13 @@ public class DrawRectangleOptions extends JavaScriptObject {
         this.repeatMode = repeatMode;
     }-*/;
 
+    public native final void setShowArea(boolean showArea)
+    /*-{
+        this.showArea = showArea;
+    }-*/;
+
+    public native final void setMetric(boolean metric)
+    /*-{
+        this.metric = metric;
+	}-*/;
 }

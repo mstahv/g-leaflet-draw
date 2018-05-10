@@ -22,4 +22,24 @@ public class DrawCircleOptions extends JavaScriptObject {
         this.repeatMode = repeatMode;
 	}-*/;
 
+	public native final void setShowRadius(boolean showRadius)
+    /*-{
+        this.showRadius = showRadius;
+	}-*/;
+
+    public native final void setMetric(boolean metric)
+    /*-{
+        this.metric = metric;
+	}-*/;
+
+    public native final void setFeet(boolean feet)
+    /*-{
+        this.feet = feet;
+	}-*/;
+
+    public native final void setNautic(boolean nautic)
+    /*-{
+        this.nautic = nautic;
+	}-*/;
+
 }

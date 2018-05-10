@@ -32,9 +32,24 @@ public class DrawPolylineOptions extends JavaScriptObject {
         this.shapeOptions = shapeOptions;
 	}-*/;
 
+	public native final void setShowLength(boolean showLength)
+    /*-{
+        this.showLength = showLength;
+	}-*/;
+
     public native final void setMetric(boolean metric)
     /*-{
         this.metric = metric;
+	}-*/;
+
+    public native final void setFeet(boolean feet)
+    /*-{
+        this.feet = feet;
+	}-*/;
+
+    public native final void setNautic(boolean nautic)
+    /*-{
+        this.nautic = nautic;
 	}-*/;
 
     public native final void setZIndexOffset(int zIndexOffset)
